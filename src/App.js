@@ -46,7 +46,7 @@ const App = () => {
     setCountryCode('us');
   }
 
-  // console.log(countryCode);
+  console.log(countryCode);
 
   const pageSize = 15;
   const apiKey = 'fa9248d531e940989b6ba8beb3ab7389'

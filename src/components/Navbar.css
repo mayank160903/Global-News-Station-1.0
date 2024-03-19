@@ -1,0 +1,24 @@
+.navbar-content{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(205, 205, 205)
+    ;
+    
+}
+ 
+.center-elements{
+    justify-content:space-evenly;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.content-font{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}

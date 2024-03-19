@@ -50,7 +50,7 @@ const App = () => {
 
   const pageSize = 15;
   const apiKey = 'fa9248d531e940989b6ba8beb3ab7389'
-  // const searchApi = `https://newsapi.org/v2/top-headlines?&apiKey=fa9248d531e940989b6ba8beb3ab7389`
+  const searchApi = `https://newsapi.org/v2/top-headlines?&apiKey=fa9248d531e940989b6ba8beb3ab7389`
   const [progress, setProgress] = useState(0);
 
 

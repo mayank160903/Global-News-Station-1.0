@@ -31,7 +31,7 @@ const Navbar = (props) => {
           <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
       </ul>
     </div>
-    <div className="dropdown">
+    {/* <div className="dropdown">
   <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Select Your Country
   </button>
@@ -50,7 +50,7 @@ const Navbar = (props) => {
 
 
       </ul>
-    </div>    
+    </div>     */}
   </div>
 </nav>
       </div>

@@ -11,42 +11,8 @@ import { useState } from 'react';
 import Title from './components/Title';
 import SearchInput from './components/SearchInput';
 import SearchResult from './components/SearchResult';
-import LanguageSelector from './components/LanguageSelector';
 
 const App = () => {
-
-  const [countryCode, setCountryCode] = useState('in');
-
-  const setAus = () => {
-    setCountryCode('au');
-  }
-
-  const setChi = () => {
-    setCountryCode('cn');
-  }
-  const setFra = () => {
-    setCountryCode('fr');
-  }
-  const setInd = () => {
-    setCountryCode('in');
-  }
-  const setJap = () => {
-    setCountryCode('jp');
-  }
-  const setNz = () => {
-    setCountryCode('nz');
-  }
-  const setRus = () => {
-    setCountryCode('ru');
-  }
-  const setSar = () => {
-    setCountryCode('sa');
-  }
-  const setUsa = () => {
-    setCountryCode('us');
-  }
-
-  console.log(countryCode);
 
   const pageSize = 15;
   const apiKey = 'fa9248d531e940989b6ba8beb3ab7389'
@@ -59,7 +25,7 @@ const App = () => {
       <div id="mainContainer">
         <Router>
           <Title />
-        <NavBar setAus={setAus} setChi={setChi} setFra={setFra} setInd={setInd} setJap={setJap} setNz={setNz} setRus={setRus} setSar={setSar} setUsa={setUsa} />
+        <NavBar />
         <LoadingBar
         color='#f11946'
         height={3}
